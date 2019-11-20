@@ -7,7 +7,17 @@ note
 deferred class
 	GRAMMAR
 
+--inherit
+--	ANY
+--		redefine
+--			out
+--		end
+
 feature -- Output
+--	out : STRING
+--		do
+--			create Result.make_empty
+--		end
 
 --	accept (v: VISITOR)
 --		deferred

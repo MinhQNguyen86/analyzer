@@ -20,12 +20,8 @@ feature {NONE} -- Initialization
 	make
 			-- Initialization for `Current'.
 		do
-			create list.make
 
 		end
-
-feature -- model attributes
-	list: LINKED_LIST[CLASS_DECLARATION]
 
 feature -- model operations
 
