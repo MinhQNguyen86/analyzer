@@ -1,0 +1,8 @@
+add_class("A")
+add_command("A", "cmd", <<>>)
+add_query("A","q1",<<>>,"A")
+add_assignment_instruction("A", "cmd", "att")
+numerical_negation
+int_value(10)
+generate_java_code
+type_check

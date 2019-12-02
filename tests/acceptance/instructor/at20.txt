@@ -1,0 +1,15 @@
+-- Type checking on call chains
+
+add_class("A")
+add_class("B")
+
+
+add_attribute("A", "a", "A")
+add_attribute("B", "ba", "A")
+
+add_query("A", "query", <<["b", "A"], ["a", "B"] >>, "B")
+add_assignment_instruction("A","query","a")
+add_call_chain(<<"Result", "ba">>)
+
+generate_java_code
+type_check

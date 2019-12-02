@@ -1,0 +1,9 @@
+add_class("A")
+add_command("A", "cmd", <<>>)
+add_attribute("A", "att", "BOOLEAN")
+add_assignment_instruction("A", "cmd", "att")
+equals
+bool_value(False)
+bool_value(False)
+generate_java_code
+type_check
